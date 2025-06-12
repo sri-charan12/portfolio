@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-text">Loading Portfolio</div>
+    </div>
+
+    <!-- Floating Navigation -->
+    <nav class="floating-nav">
+        <ul>
+            <li><a href="#home" class="nav-link active" data-tooltip="Home"><i class="fas fa-home"></i></a></li>
+            <li><a href="#about" class="nav-link" data-tooltip="About"><i class="fas fa-user"></i></a></li>
+            <li><a href="#skills" class="nav-link" data-tooltip="Skills"><i class="fas fa-code"></i></a></li>
+            <li><a href="#experience" class="nav-link" data-tooltip="Experience"><i class="fas fa-briefcase"></i></a></li>
+            <li><a href="#projects" class="nav-link" data-tooltip="Projects"><i class="fas fa-project-diagram"></i></a></li>
+            <li><a href="#contact" class="nav-link" data-tooltip="Contact"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <div class="mobile-menu-btn">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="animated-text">Hi, I'm <span class="highlight">Your Name</span></h1>
+                    <h2 class="animated-subtext">Your Professional Title</h2>
+                    <p class="animated-description">A passionate professional with expertise in [your skills]. I create innovative solutions that drive business success.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary pulse">Hire Me</a>
+                        <a href="your-resume.pdf" download class="btn-secondary">Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://via.placeholder.com/400x400" alt="Your Name" class="profile-image">
+                        <div class="image-border-animation"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <h2>About <span class="highlight">Me</span></h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/350x450" alt="About Me">
+                    <div class="about-image-overlay">
+                        <div class="overlay-content">
+                            <h3>Your Name</h3>
+                            <p>Your Professional Title</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>I'm a passionate professional with [X] years of experience in [your field]. I specialize in [specific skills] and have a proven track record of delivering exceptional results for clients and employers.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-chevron-right"></i>
+                            <span><strong>Name:</strong> Your Name</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chevron-right"></i>
+                            <span><strong>Email:</strong> your.email@example.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chevron-right"></i>
+                            <span><strong>Experience:</strong> X+ Years</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-chevron-right"></i>
+                            <span><strong>Availability:</strong> Open to Work</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-medium-m"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-header">
+                <h2>My <span class="highlight">Skills</span></h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-intro">
+                    <h3>Technical Expertise</h3>
+                    <p>I've developed a diverse skill set through years of hands-on experience and continuous learning. Here are my core competencies:</p>
+                </div>
+                
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-laptop-code"></i> Frontend Development</h4>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4><i class="fas fa-server"></i> Backend Development</h4>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Database</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4><i class="fas fa-tools"></i> Other Skills</h4>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>UI/UX Design</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Project Management</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Agile Methodologies</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="section-header">
+                <h2>Work <span class="highlight">Experience</span></h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="experience-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - Present</div>
+                        <div class="timeline-content">
+                            <h3>Senior Developer</h3>
+                            <h4>Tech Company Inc.</h4>
+                            <p>Led a team of 5 developers to build scalable web applications. Implemented CI/CD pipelines reducing deployment time by 40%.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2018 - 2021</div>
+                        <div class="timeline-content">
+                            <h3>Frontend Developer</h3>
+                            <h4>Digital Solutions LLC</h4>
+                            <p>Developed responsive web applications using React and Redux. Improved page load performance by 30%.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2016 - 2018</div>
+                        <div class="timeline-content">
+                            <h3>Junior Developer</h3>
+                            <h4>Startup Ventures</h4>
+                            <p>Built and maintained company website. Assisted in developing internal tools that increased team productivity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-header">
+                <h2>My <span class="highlight">Projects</span></h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="projects-content">
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="design">Design</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>E-commerce Platform</h3>
+                                    <p>A full-featured online store with payment integration</p>
+                                    <a href="#" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Platform</h3>
+                            <span>React, Node.js, MongoDB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Project 2">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>Fitness App</h3>
+                                    <p>Mobile application for workout tracking</p>
+                                    <a href="#" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Fitness App</h3>
+                            <span>React Native, Firebase</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Project 3">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>Portfolio Template</h3>
+                                    <p>Responsive portfolio template for creatives</p>
+                                    <a href="#" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio Template</h3>
+                            <span>HTML, CSS, JavaScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="design">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Project 4">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>UI Kit</h3>
+                                    <p>Design system for web applications</p>
+                                    <a href="#" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>UI Kit</h3>
+                            <span>Figma, Adobe XD</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="web">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Project 5">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>Blog Platform</h3>
+                                    <p>Content management system for writers</p>
+                                    <a href="#" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Blog Platform</h3>
+                            <span>WordPress, PHP</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="mobile">
+                        <div class="project-image">
+                            <img src="https://via.placeholder.com/400x250" alt="Project 6">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <h3>Travel App</h3>
+                                    <p>Mobile guide for travelers</p>
+                                    <a href="#" class="project-link">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Travel App</h3>
+                            <span>Flutter, Google Maps API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <h2>Get In <span class="highlight">Touch</span></h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>I'm currently open to new opportunities and would love to discuss how I can contribute to your team. Feel free to reach out!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:your.email@example.com">your.email@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <span>Your City, Country</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-medium-m"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="hireForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Your Name</h2>
+                <p>Professional Portfolio</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> your.email@example.com</li>
+                    <li><i class="fas fa-phone"></i> +1 (234) 567-890</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Your City, Country</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-icon success">
+                <i class="fas fa-check"></i>
+            </div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+            <button class="btn-primary" id="modalCloseBtn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
