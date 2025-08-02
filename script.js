@@ -84,7 +84,27 @@ document.addEventListener('DOMContentLoaded', function() {
             behavior: 'smooth'
         });
     });
-    
+ 
+
+const username = 'yourusername';
+
+async function fetchGitHubStats() {
+  const userRes = await fetch(`https://api.github.com/users/${username}`);
+  const userData = await userRes.json();
+
+  const reposRes = await fetch(userData.repos_url);
+  const repos = await reposRes.json();
+
+  // Calculate total stars
+  const totalStars = repos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
+
+  document.getElementById('total-stars').textContent = totalStars;
+  document.getElementById('total-repos').textContent = userData.public_repos;
+}
+
+fetchGitHubStats();
+
+
     // Animate skill bars on scroll
     const skillBars = document.querySelectorAll('.skill-progress');
     
